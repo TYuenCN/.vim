@@ -13,6 +13,9 @@ set nocompatible
 " start：要想删除此次插入前的输入，需设置这个。
 set backspace=indent,eol,start
 
+" 高亮 /{chars} 的内容
+set hls
+
 " 键盘映射 ESC
 inore jk <ESC>
 " 键盘映射 gocode 补全提示
